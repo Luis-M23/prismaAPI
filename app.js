@@ -5,7 +5,7 @@ const e = require('express')
 const prisma = new PrismaClient()
 const app = express()
 
-
+//development
 app.use(express.json())
 
 app.get('/',(req,res)=>{
